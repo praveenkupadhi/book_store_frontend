@@ -1,0 +1,30 @@
+table {
+	width: 85rem;
+	border: 3px solid rgb(245, 91, 116);
+	margin-top: 1rem;
+}
+thead > tr > th,
+tbody > tr > td {
+	border: 2px solid rgb(126, 9, 165);
+	border-collapse: collapse;
+}
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	width: 400px;
+	margin: auto;
+	border-radius: 2px;
+	background-color: aquamarine;
+	padding: 5px;
+}
+.navbar > a {
+	text-decoration: none;
+	color: green;
+}
+.title {
+	width: 500px;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
